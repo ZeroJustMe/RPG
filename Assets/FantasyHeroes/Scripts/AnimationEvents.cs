@@ -10,8 +10,9 @@ namespace Assets.FantasyHeroes.Scripts
         /// <summary>
         /// Called from animation
         /// </summary>
-        public void OnHit()
+        void Update()
         {
+            
         }
     }
 }
