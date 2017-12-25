@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    public float HorizontalSpeed;
+    public float VerticalSpeed;
     Animator tmp;
     // Use this for initialization
     void Start()
@@ -17,7 +19,7 @@ public class NewBehaviourScript : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         if (h == 0 && v == 0){ tmp.SetBool("run", false); return; }
-        Vector3 move = new Vector3(h * Time.deltaTime * (float)3.8, v * Time.deltaTime * (float)3.0, 0);
+        Vector3 move = new Vector3(h * HorizontalSpeed, v * VerticalSpeed, 0) * Time.deltaTime;
         tmp.SetBool("run", true);
         transform.position += move;
     }
