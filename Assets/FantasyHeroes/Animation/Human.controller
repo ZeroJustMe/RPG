@@ -976,8 +976,11 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TimeParameter: 
 =======
+=======
+>>>>>>> parent of 6313add... 修复修改y轴后的传送bug
 --- !u!1102 &1102884437251394576
 AnimatorState:
   serializedVersion: 5
@@ -1001,7 +1004,10 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
+<<<<<<< HEAD
 >>>>>>> e9ee832a67ece686ac9a674f95492dde936248b0
+=======
+>>>>>>> parent of 6313add... 修复修改y轴后的传送bug
 --- !u!1102 &1102919013141835374
 AnimatorState:
   serializedVersion: 5
