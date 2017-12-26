@@ -78,6 +78,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Demo\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Demo\Scripts\sc.cs" />
     <Compile Include="Assets\FantasyHeroes\Scripts\AnimationEvents.cs" />
     <Compile Include="Assets\FantasyHeroes\Scripts\AnimationManager.cs" />
     <Compile Include="Assets\FantasyHeroes\Scripts\Character.cs" />
@@ -93,8 +95,6 @@
     <Compile Include="Assets\FantasyHeroes\Scripts\SpriteGroupEntry.cs" />
     <Compile Include="Assets\FantasyHeroes\Scripts\SpriteSheetMaker.cs" />
     <Compile Include="Assets\FantasyHeroes\Scripts\WeaponType.cs" />
-    <Compile Include="Assets\NewBehaviourScript.cs" />
-    <Compile Include="Assets\sc.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FantasyHeroes\Shaders\ColorizeEyes.shader" />
