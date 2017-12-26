@@ -38,7 +38,7 @@ public class sc : MonoBehaviour {
 
         pos = other;
         pre_pos = pos.transform.position;
-        pos.transform.localPosition = new Vector3((float)-2, (float)-10, 0);
+        pos.transform.localPosition = new Vector3((float)-2, (float)-10, -2);
 
         cam = GameObject.Find("Main Camera");
         pre_cam = cam.transform.position;

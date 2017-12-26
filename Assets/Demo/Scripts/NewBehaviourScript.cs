@@ -21,13 +21,13 @@ public class NewBehaviourScript : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         if (h == 0 && v == 0){ tmp.SetBool("run", false); return; }
+        Vector3 move = new Vector3(h * HorizontalSpeed, v * VerticalSpeed, 0) * Time.deltaTime;
         if (h > 0) {
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else if (h < 0) {
             transform.rotation = Quaternion.Euler(0, 180f, 0);
         }
-        Vector3 move = new Vector3(h * HorizontalSpeed, v * VerticalSpeed, 0) * Time.deltaTime;
         tmp.SetBool("run", true);
         transform.position += move;
     }
