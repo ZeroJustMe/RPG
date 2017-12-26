@@ -1,8 +1,9 @@
 ﻿using System.Collections;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sc : MonoBehaviour {
+public class Portal : MonoBehaviour {
 
     GameObject TB = null,cam;
     private float starttime=-1,nowtime;
@@ -30,6 +31,9 @@ public class sc : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+      //  SceneManager.LoadScene("Boss");
+
+        
         if (k==1) { k = 0; return; }
         
         TB=Instantiate(Resources.Load("enemy") as GameObject) as GameObject;
@@ -44,5 +48,6 @@ public class sc : MonoBehaviour {
         pre_cam = cam.transform.position;
         cam.transform.localPosition = new Vector3((float)0, (float)-10, -10);
         starttime = Time.time;
+        
     }
 }

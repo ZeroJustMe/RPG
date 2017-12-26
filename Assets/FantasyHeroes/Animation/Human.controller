@@ -52,16 +52,16 @@ AnimatorStateMachine:
     m_Position: {x: 228, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102000011182832260}
-    m_Position: {x: -120, y: 348, z: 0}
+    m_Position: {x: 228, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102000011401316784}
-    m_Position: {x: -120, y: 48, z: 0}
+    m_Position: {x: 12, y: 48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102000012624767996}
-    m_Position: {x: -120, y: 288, z: 0}
+    m_Position: {x: 12, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102000010841737620}
-    m_Position: {x: -120, y: 0, z: 0}
+    m_Position: {x: 12, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102750032581120168}
     m_Position: {x: 444, y: 96, z: 0}
@@ -70,7 +70,7 @@ AnimatorStateMachine:
     m_Position: {x: 228, y: -48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102837361775433748}
-    m_Position: {x: 228, y: -144, z: 0}
+    m_Position: {x: 360, y: -132, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102190820456139426}
     m_Position: {x: 444, y: 0, z: 0}
@@ -79,13 +79,13 @@ AnimatorStateMachine:
     m_Position: {x: 444, y: 48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102331455130614946}
-    m_Position: {x: -120, y: 168, z: 0}
+    m_Position: {x: 12, y: 144, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102001347080772838}
-    m_Position: {x: -120, y: 228, z: 0}
+    m_Position: {x: 12, y: 192, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102369323225230414}
-    m_Position: {x: -120, y: 108, z: 0}
+    m_Position: {x: 12, y: 96, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102703011954990104}
     m_Position: {x: 228, y: 192, z: 0}
@@ -119,6 +119,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 1102551029374415676}
     m_Position: {x: 578, y: 842, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102884437251394576}
+    m_Position: {x: 216, y: -192, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -972,7 +975,33 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
+<<<<<<< HEAD
   m_TimeParameter: 
+=======
+--- !u!1102 &1102884437251394576
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: GodvStand
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f6ef5f7d7ed4fe747aa750c0b40959e9, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+>>>>>>> e9ee832a67ece686ac9a674f95492dde936248b0
 --- !u!1102 &1102919013141835374
 AnimatorState:
   serializedVersion: 5

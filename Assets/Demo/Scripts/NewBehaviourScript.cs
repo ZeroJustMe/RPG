@@ -7,12 +7,14 @@ public class NewBehaviourScript : MonoBehaviour
     const float eps = 1e-6f;
     public float HorizontalSpeed;
     public float VerticalSpeed;
+    private float last_h;
     private Animator tmp;
 
     // Use this for initialization
     void Start()
     {
         tmp = GameObject.Find("Animation").GetComponent<Animator>();
+        last_h = 0;
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class NewBehaviourScript : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, 180f, 0);
         }
         tmp.SetBool("run", true);
+        last_h = h;
         transform.position += move;
     }
 }
